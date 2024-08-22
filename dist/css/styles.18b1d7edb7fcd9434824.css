@@ -1,0 +1,65 @@
+/*!******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles.css ***!
+  \******************************************************************/
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container for layout */
+  .container {
+    display: flex;
+  }
+  
+  /* Style for the navbar */
+  .navbar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+  }
+  
+  .navbar ul li {
+    margin: 10px 0;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content area */
+  main {
+    margin-left: 250px;
+    padding: 20px;
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  form input {
+    margin-right: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
